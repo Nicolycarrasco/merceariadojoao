@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(231, 232, 231);
+     
+}
+
+figure{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.nome{
+    color: black;
+}
+
+.botao{
+    font-size: 12px;
+    background-color: #649477;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.2);  
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botao:hover {
+    background: #80ba98;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color:#80ba98;
+}
+
+.nome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    position: absolute;
+    left: 5%;
+}
+
+figure{
+    transition: all .2s ease-in-out;
+    border-radius: 50%;
+}
+
+figure:hover{
+    transform: scale(1.1);
+}
+
+.card1{
+    transition: all .3s ease-in-out;
+    width: 8%;
+    margin-left: 11%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card2{
+    width: 8%;
+    margin-left: 6%;
+    transition: all .3s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card3{
+    width: 8%;
+    margin-left: 6%;
+    transition: all .3s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card4{
+    width: 8%;
+    margin-left: 53%;
+    margin-top: -18.6%;
+    transition: all .3s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card5{
+    width: 8%;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: -18.6%;
+    transition: all .3s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card6{
+    width: 8%;
+    margin-left: 6%;
+    margin-top: -18.6%;
+    transition: all .3s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+.card5:hover{
+    transform: scale(1.1);
+}
+.card6:hover{
+    transform: scale(1.1);
+}
+
+h2{
+    background-color: rgb(220, 222, 220);
+    width: 320px;
+    text-align: center;
+    margin-left: 37.2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+fieldset{
+    background-color: rgb(220, 222, 220);
+    padding: -5%;
+    margin-top: 1%;
+    width: 90%;
+    margin-left: 5%;
+}

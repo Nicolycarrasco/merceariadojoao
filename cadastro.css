@@ -1,0 +1,89 @@
+body{
+    background-color:rgb(231, 232, 231);
+    text-align: center;
+}
+
+.img{
+    left: 75%; 
+    top: 355px;
+    position: absolute;
+}
+
+
+fieldset{
+    text-align: center;
+    position:absolute;
+    width: 30%;
+    padding: 60px;
+    left: 34%;
+    background-color: rgb(243, 243, 243);
+}
+
+.botao{
+    font-size: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #649477;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 88%;
+    left: 49%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: #80ba98;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+input[type="text"]{
+    width: 260px;
+}
+
+input[type="number"]{
+    width: 260px;
+}
+
+input[type="email"]{
+    width: 260px;
+}
+
+input[type="password"]{
+    width: 260px;
+
+}
+
+
+.navbar{
+    background-color:#80ba98;
+        
+}
+a{
+    color: black
+}
+
+figure{
+    left: 85%; 
+    top: 73%;
+    position: absolute;
+}

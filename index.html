@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="Icon" href="5465858.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="login.css" rel="stylesheet">
+  <title>Mercearia do João</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <!-- menu -->
+  <nav class="navbar navbar-expand-lg">
+    <img src="img/5465858.png" alt="nics" width="40" height="40">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Login <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastro.html">Cadastro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- menu -->
+
+  <br>
+  <br>
+  <fieldset id="Nome">
+    <legend>
+      <h2><strong>LOGIN</strong></h2>
+    </legend>
+    <div class="img">
+      <img src="img/Design sem nome - Editado.png" alt="login" title="login" width="100" height="100">
+    </div>
+    <br>
+    <br>
+    <form method="post" action="verificarlogin.php">
+      <div class="form-group">
+        <input type="text" class="form-control" id="inputAddress3" placeholder="Usuario" name="usuario">
+      </div>
+
+      <div class="form-group">
+        <input type="password" class="form-control" id="inputAddress3" placeholder="Senha" name="senha">
+      </div>
+      <br>
+
+      <br>
+      </div>
+      <button type="submit" class="botao">Entrar</button>
+    </form>
+    <a button class="botao2" type="submit" href="cadastro.html">Cadastrar</a>
+  </fieldset>
+  <br>
+  <figure>
+    <img src="img/Mercearia (1).png" alt="Merceariadojoao" title="Mercearia do João" width="150" height="150">
+  </figure>
+  <!-- Plugin VLibras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!-- Plugin VLibras -->
+</body>
+
+</html>

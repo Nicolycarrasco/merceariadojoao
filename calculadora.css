@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(231, 232, 231);
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    border: 0;
+    border-radius: 0%;
+    background-color: #f3f3f3;
+    font-size: inherit;
+    font-family:'Courier New', Courier, monospace;
+    outline: none;
+    text-align: left;
+}
+
+html{
+    font-size: 175%;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.calculator{
+    border-radius: 7px;
+    box-shadow: 0 0 10px 0px rgb(171, 168, 168);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    max-width: 15em;
+    overflow: hidden;
+   
+}
+
+.calculator__display{
+    background-color:#f3f3f3;
+    color: black;
+    font: size 1.9289683em;
+    padding: 1em 0.75em;
+    text-align: right;
+}
+
+.calculator__keys{
+    background-color: #608D72;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator__keys > * {
+    background-color: #e8e5e5;
+    padding: 0.75em 1.25em;
+    position: relative;
+    text-align: center;
+} 
+
+.key--operator {
+    background-color: #d1cfcf;
+}
+
+.key--equal{
+    background-color: #b3c1b9;
+    grid-column: -2;
+    grid-row: 3 / span 4;
+}
+
+.botao{
+    font-size: 0.75em;
+    background: #649477;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.2);  
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botao:hover {
+    background: #80ba98;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.sobre{
+    align-items: right;
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    color: #908e8e;
+}
